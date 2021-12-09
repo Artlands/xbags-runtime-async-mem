@@ -1,0 +1,300 @@
+Start testing: Dec 08 23:26 EST
+----------------------------------------------------------
+1/11 Testing: init_test_1
+1/11 Test: init_test_1
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/init/testBin/init_test_1"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/init/testBin
+"init_test_1" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Initializing xBGAS Runtime
+Initializing xBGAS Runtime
+xBGAS is Initialized; Closing xBGAS
+xBGAS is Initialized; Closing xBGAS
+xBGAS is Closed
+xBGAS is Closed
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"init_test_1" end time: Dec 08 23:26 EST
+"init_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: init_test_2
+2/11 Test: init_test_2
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/init/testBin/init_test_2"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/init/testBin
+"init_test_2" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Initializing xBGAS Runtime
+Initializing xBGAS Runtime
+xBGAS is initialized; Closing xBGAS
+xBGAS is initialized; Closing xBGAS
+I AM PE = 0 of 2 TOTAL PEs
+I AM PE = 1 of 2 TOTAL PEs
+xBGAS is Closed
+xBGAS is Closed
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"init_test_2" end time: Dec 08 23:26 EST
+"init_test_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: init_test_3
+3/11 Test: init_test_3
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/init/testBin/init_test_3"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/init/testBin
+"init_test_3" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Querying mype prior to initializaton
+Success; caught the error
+Querying num_pes prior to initializaton
+Success; caught the error
+Querying mype prior to initializaton
+Success; caught the error
+Querying num_pes prior to initializaton
+Success; caught the error
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"init_test_3" end time: Dec 08 23:26 EST
+"init_test_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: alloc_test_1
+4/11 Test: alloc_test_1
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin/alloc_test_1"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin
+"alloc_test_1" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Initializing xBGAS Runtime
+Initializing xBGAS Runtime
+xBGAS is Initialized
+xBGAS is Initialized
+Allocating 8 bytes
+XBGAS_DEBUG : PE = 0; ALLOCATING MEMORY IN SLOT = 0
+Allocating 8 bytes
+PTR = 0x25f00
+xBGAS is Closing
+XBGAS_DEBUG : PE = 1; ALLOCATING MEMORY IN SLOT = 0
+PTR = 0x25f00
+xBGAS is Closed
+xBGAS is Closing
+xBGAS is Closed
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"alloc_test_1" end time: Dec 08 23:26 EST
+"alloc_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: alloc_test_2
+5/11 Test: alloc_test_2
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin/alloc_test_2"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin
+"alloc_test_2" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Initializing xBGAS Runtime
+Initializing xBGAS Runtime
+xBGAS is Initialized
+xBGAS is Initialized
+Allocating 16 bytes
+Allocating 16 bytes
+XBGAS_DEBUG : PE = 0; ALLOCATING MEMORY IN SLOT = 0
+PTR = 0x25f00
+XBGAS_DEBUG : PE = 1; ALLOCATING MEMORY IN SLOT = 0
+xBGAS is Closing
+PTR = 0x25f00
+xBGAS is Closing
+xBGAS is Closed
+xBGAS is Closed
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"alloc_test_2" end time: Dec 08 23:26 EST
+"alloc_test_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: alloc_test_3
+6/11 Test: alloc_test_3
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin/alloc_test_3"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin
+"alloc_test_3" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Initializing xBGAS Runtime
+Initializing xBGAS Runtime
+xBGAS is Initialized
+xBGAS is Initialized
+Allocating 4096 bytes
+Allocating 4096 bytes
+XBGAS_DEBUG : PE = 1; ALLOCATING MEMORY IN SLOT = 0
+XBGAS_DEBUG : PE = 0; ALLOCATING MEMORY IN SLOT = 0
+PTR = 0x25f00
+xBGAS is Closing
+PTR = 0x25f00
+xBGAS is Closing
+xBGAS is Closed
+xBGAS is Closed
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"alloc_test_3" end time: Dec 08 23:26 EST
+"alloc_test_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: alloc_test_4
+7/11 Test: alloc_test_4
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin/alloc_test_4"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin
+"alloc_test_4" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Initializing xBGAS Runtime
+Initializing xBGAS Runtime
+xBGAS is Initialized
+xBGAS is Initialized
+Allocating 32768 bytes
+Allocating 32768 bytes
+XBGAS_DEBUG : PE = 0; ALLOCATING MEMORY IN SLOT = 0
+PTR = 0x25f00
+xBGAS is Closing
+XBGAS_DEBUG : PE = 1; ALLOCATING MEMORY IN SLOT = 0
+PTR = 0x25f00
+xBGAS is Closed
+xBGAS is Closing
+xBGAS is Closed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"alloc_test_4" end time: Dec 08 23:26 EST
+"alloc_test_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: alloc_test_KF_1
+8/11 Test: alloc_test_KF_1
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin/alloc_test_KF_1"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin
+"alloc_test_KF_1" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Initializing xBGAS Runtime
+Initializing xBGAS Runtime
+xBGAS is Initialized
+xBGAS is Initialized
+Allocating 0 bytes
+Allocating 0 bytes
+Successfully caught erroneous condition
+Successfully caught erroneous condition
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"alloc_test_KF_1" end time: Dec 08 23:26 EST
+"alloc_test_KF_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: alloc_test_KF_2
+9/11 Test: alloc_test_KF_2
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin/alloc_test_KF_2"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/alloc/testBin
+"alloc_test_KF_2" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Initializing xBGAS Runtime
+Initializing xBGAS Runtime
+xBGAS is Initialized
+xBGAS is Initialized
+Allocating 1569325056 bytes
+Successfully caught erroneous condition
+Allocating 1569325056 bytes
+Successfully caught erroneous condition
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"alloc_test_KF_2" end time: Dec 08 23:26 EST
+"alloc_test_KF_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: barr_test_1
+10/11 Test: barr_test_1
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/barr/testBin/barr_test_1"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/barr/testBin
+"barr_test_1" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Initializing xBGAS Runtime
+Initializing xBGAS Runtime
+xBGAS is Initialized
+xBGAS is Initialized
+Perform a barrier
+Perform a barrier
+Perform another barrier
+Perform another barrier
+PE = 0; XBGAS is Closing
+PE = 1; XBGAS is Closing
+xBGAS is Closed
+xBGAS is Closed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"barr_test_1" end time: Dec 08 23:26 EST
+"barr_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: xfer_get_test_1
+11/11 Test: xfer_get_test_1
+Command: "/usr/bin/mpirun" "-n" "2" "/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/spike" "-x512" "pk" "/home/jieli/Desktop/ReplicaXbgasRuntime/test/xfer/testBin/xfer_get_test_1"
+Directory: /home/jieli/Desktop/ReplicaXbgasRuntime/test/xfer/testBin
+"xfer_get_test_1" start time: Dec 08 23:26 EST
+Output:
+----------------------------------------------------------
+Initializing xBGAS Runtime
+Initializing xBGAS Runtime
+PE = 1; xBGAS is Initialized
+PE = 0; xBGAS is Initialized
+PE = 1; Allocating 8 bytes
+PE = 0; Allocating 8 bytes
+XBGAS_DEBUG : PE = 1; ALLOCATING MEMORY IN SLOT = 0
+PE = 1; *PTR = 0x153584
+XBGAS_DEBUG : PE = 0; ALLOCATING MEMORY IN SLOT = 0
+BEFORE GET : PE = 1; PTR[0] = 0x1
+PE = 1; EXECUTING BARRIER
+PE = 0; *PTR = 0x153584
+BEFORE GET : PE = 0; PTR[0] = 0x0
+PE = 0; EXECUTING BARRIER
+PE = 1; DOING NOTHING
+PE = 0; PERFORMAING OPERATION
+PE = 1; EXECUTING BARRIER
+XBGAS_DEBUG : PE = 0; Translating local address at pe = 1 from 0x153584
+XBGAS_DEBUG : PE = 0; Remote address in slot = 0 at pe = 1 is 0x153584
+PE = 0; EXECUTING BARRIER
+AFTER GET : PE = 1; PTR[0] = 0x1
+AFTER GET : PE = 0; PTR[0] = 0x1
+PE = 1; xBGAS is Closing
+PE = 0; xBGAS is Closing
+xBGAS is Closed
+xBGAS is Closed
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"xfer_get_test_1" end time: Dec 08 23:26 EST
+"xfer_get_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 08 23:26 EST

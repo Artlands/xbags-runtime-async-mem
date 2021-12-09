@@ -1,0 +1,1 @@
+/home/jieli/Desktop/xBGAS/riscv/toolchain/bin/riscv64-unknown-elf-gcc  -O3 -Wall -std=c11 -std=c11 -std=c11 -std=c11 -std=c11 -std=c11  -O3 -Wall -O0 -Wall -DXBGAS_DEBUG   CMakeFiles/alloc_test_KF_1.dir/alloc_test_KF_1.c.o  -o ../../../test/alloc/testBin/alloc_test_KF_1  ../../src/xbgas-runtime/libxbrtime.a 

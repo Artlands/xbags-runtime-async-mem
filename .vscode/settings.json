@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "xbrtime-macros.h": "c"
+    },
+    "cmake.configureOnOpen": false,
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.fontFamily": "Meslo LG S for Powerline",
+}
